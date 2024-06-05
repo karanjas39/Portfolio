@@ -15,11 +15,12 @@
 body {
   background-color: $bg;
   color: $pc;
+  position: relative;
 }
 
 #root {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr;
   gap: 20px;
 }

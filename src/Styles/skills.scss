@@ -1,0 +1,42 @@
+@import "./colors";
+
+.skills {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  > p {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: $sc;
+  }
+
+  > div {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    > div {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+
+      > i,
+      > p {
+        font-size: 32px;
+      }
+      > p {
+        font-size: 14px;
+      }
+    }
+  }
+}
