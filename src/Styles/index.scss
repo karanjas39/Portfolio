@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+$pc: #2fcb73;
+$sc: #ffffff;
+$bg: #020202;
+
+body {
+  background-color: $bg;
+  color: $sc;
+}
