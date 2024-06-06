@@ -6,18 +6,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 30px;
+  padding-top: 40px;
 
   > p {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-    color: $sc;
+    > span {
+      color: $sc;
+    }
   }
 
   > div {
-    width: 50%;
+    width: 70%;
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;

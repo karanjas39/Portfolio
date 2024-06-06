@@ -1,0 +1,87 @@
+@import "./colors";
+
+.work {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  gap: 30px;
+  margin-bottom: 30px;
+
+  > p {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    > span {
+      color: $sc;
+    }
+  }
+
+  > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    > .project-template {
+      display: flex;
+      flex-direction: column;
+      border: solid 1px $b;
+      border-radius: 10px;
+
+      > img {
+        width: 100%;
+        object-fit: contain;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      > div {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        > p {
+          &:nth-child(1) {
+            font-size: 16px;
+            font-weight: bold;
+          }
+          &:nth-child(2) {
+            font-size: 14px;
+          }
+        }
+
+        > div:first-of-type {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          flex-wrap: wrap;
+
+          > p {
+            padding: 4px 8px;
+            border: solid 1px $b;
+            border-radius: 5px;
+            font-size: 12px;
+          }
+        }
+
+        > div:last-of-type {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          > a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            text-decoration: none;
+            color: $pc;
+            font-size: 12px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

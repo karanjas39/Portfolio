@@ -3,8 +3,9 @@ import "../../Styles/skills.scss";
 export default function Skills() {
   return (
     <section className="skills">
-      <p>My key skills, tools, and technologies.</p>
-
+      <p>
+        My <span>Skills</span>.
+      </p>
       <div>
         <div>
           <i class="fa-brands fa-js"></i>
@@ -57,6 +58,10 @@ export default function Skills() {
         <div>
           <i class="fa-brands fa-node"></i>
           <p>Node.js</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-gem"></i>
+          <p>Zod</p>
         </div>
       </div>
     </section>
