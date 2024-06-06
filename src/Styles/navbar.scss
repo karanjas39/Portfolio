@@ -11,6 +11,12 @@
   border: 1px solid $b;
   border-radius: 10px;
 
+  .menu-bar {
+    display: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
   > p {
     font-size: 24px;
     font-weight: bold;
@@ -24,31 +30,63 @@
     display: flex;
     align-items: center;
     gap: 30px;
+    transition: width 0.7s ease-in-out;
 
-    > a {
-      text-decoration: none;
-      color: $pc;
-      cursor: pointer;
-      letter-spacing: 1px;
-      opacity: 0.5;
-      transition: opacity 0.4s ease-in-out;
-    }
-    > .active {
-      opacity: 1;
+    > p {
+      > a {
+        text-decoration: none;
+        color: $pc;
+        cursor: pointer;
+        letter-spacing: 1px;
+        opacity: 0.5;
+        transition: opacity 0.4s ease-in-out;
+        white-space: nowrap;
+      }
+      > .active {
+        opacity: 1;
+      }
     }
   }
 
-  > button {
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    background-color: $sc;
-    cursor: pointer;
+  > .blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6px);
+    z-index: 90;
+    transition: backdrop-filter 1s ease-in-out;
+  }
+}
 
-    > a {
-      color: $bg;
-      text-decoration: none;
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0;
+    align-items: center;
+
+    .menu-bar {
+      display: block;
+    }
+
+    > div {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 0%;
+      flex-direction: column;
+      justify-content: center;
+      background-color: $bg;
+      overflow: hidden;
+      z-index: 100;
+      &.open {
+        width: 80%;
+      }
     }
   }
 }

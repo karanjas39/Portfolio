@@ -15,10 +15,10 @@
 body {
   background-color: $bg;
   color: $pc;
-  position: relative;
 }
 
 #root {
+  position: relative;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr;

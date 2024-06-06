@@ -105,3 +105,14 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .work {
+    width: 90%;
+
+    > div {
+      width: 80%;
+      grid-template-columns: 1fr;
+    }
+  }
+}

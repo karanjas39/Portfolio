@@ -23,6 +23,12 @@ export default function About() {
               <i className="fa-brands fa-github"></i>
             </a>
             <a
+              href="mailto:dhillonjaskaran4486@gmail.com?subject=Hi! Jaskaran"
+              target="_blank"
+            >
+              <i class="fa-solid fa-at"></i>
+            </a>
+            <a
               href="https://www.linkedin.com/in/singhjaskaran/"
               target="_blank"
             >

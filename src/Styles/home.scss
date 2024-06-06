@@ -6,6 +6,7 @@
   justify-content: center;
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 20px;
 
   > div {
     display: flex;
@@ -40,6 +41,37 @@
       background-color: $sc;
       cursor: pointer;
       margin-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    width: 90%;
+    gap: 15px;
+
+    > div {
+      > p {
+        &:nth-child(1) {
+          font-size: 24px;
+        }
+        &:nth-child(2) {
+          font-size: 32px;
+        }
+        &:nth-child(3) {
+          font-size: 18px;
+        }
+      }
+
+      > a {
+        padding: 8px 16px;
+      }
+    }
+
+    > img {
+      width: 70%;
     }
   }
 }

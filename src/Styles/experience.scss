@@ -106,3 +106,28 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .exp {
+    width: 90%;
+    > div {
+      width: 100%;
+      > .exp-template {
+        > .top {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 10px;
+          > div {
+            align-self: flex-end;
+            > p {
+              &:first-of-type,
+              &:last-of-type {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
