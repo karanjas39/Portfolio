@@ -14,11 +14,9 @@ export default function About() {
             from Jalandhar, Punjab, India. Currently pursuing a{" "}
             <span>Bachelor of Computer Science and Engineering</span> at DAV
             University with a <span>GPA of 9+</span>. My coursework includes{" "}
-            <span>
-              Database Management Systems, Object-Oriented Programming, Software
-              Development, Computer Networks, Operating Systems,
-            </span>{" "}
-            and <span>Data Structures and Algorithms</span>.
+            Database Management Systems, Object-Oriented Programming, Software
+            Development, Computer Networks, Operating Systems, and Data
+            Structures and Algorithms.
           </p>
           <div>
             <a href="https://github.com/karanjas39" target="_blank">

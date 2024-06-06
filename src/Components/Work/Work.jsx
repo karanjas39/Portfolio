@@ -1,5 +1,6 @@
 import "../../Styles/work.scss";
 import Project from "./Project";
+import { projects } from "../../Data/projects";
 
 export default function Work() {
   return (
@@ -8,7 +9,9 @@ export default function Work() {
         My <span>Work</span>.
       </p>
       <div>
-        <Project />
+        {projects.map((project) => (
+          <Project project={project} key={project.name} />
+        ))}
       </div>
     </section>
   );

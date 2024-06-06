@@ -22,6 +22,7 @@
   > div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
     gap: 30px;
 
     > .project-template {
@@ -30,18 +31,37 @@
       border: solid 1px $b;
       border-radius: 10px;
 
-      > img {
-        width: 100%;
-        object-fit: contain;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+      > div {
+        position: relative;
+
+        > img {
+          width: 100%;
+          object-fit: contain;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+
+        > a {
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+          text-decoration: none;
+          color: $pc;
+          background-color: $bg;
+          padding: 3px 6px;
+          border-radius: 5px;
+          font-size: 14px;
+          &:hover {
+            opacity: 0.8;
+          }
+        }
       }
 
-      > div {
+      > div:last-of-type {
         padding: 15px;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
 
         > p {
           &:nth-child(1) {

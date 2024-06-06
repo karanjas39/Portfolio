@@ -1,26 +1,31 @@
 import "../../Styles/work.scss";
 
-function Project() {
+function Project({ project }) {
   return (
     <div className="project-template">
-      <img src="/public/Screenshot 2024-03-29 222916.png" alt="" />
       <div>
-        <p>Git</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
-          quas suscipit dignissimos commodi. Quae est exercitationem sit
-          recusandae enim illo.
-        </p>
+        <img src={project.banner} alt={project.name} />
+        {project.youtubeLink && (
+          <a href={project.youtubeLink} target="_blank">
+            Demo Video
+          </a>
+        )}
+      </div>
+      <div>
+        <p>{project.name}</p>
+        <p>{project.description}</p>
         <div>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>Javascript</p>
+          {project.techStack.map((tech) => (
+            <p>{tech}</p>
+          ))}
         </div>
         <div>
-          <a href="#" target="_blank">
-            <i className="fa-solid fa-link"></i> Live Preview
-          </a>
-          <a href="#" target="_blank">
+          {project.liveLink && (
+            <a href={`${project.liveLink}`} target="_blank">
+              <i className="fa-solid fa-link"></i> Live Preview
+            </a>
+          )}
+          <a href={`${project.gitLink}`} target="_blank">
             <i className="fa-brands fa-github"></i> View Code
           </a>
         </div>

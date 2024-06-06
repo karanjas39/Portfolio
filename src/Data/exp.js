@@ -1,0 +1,55 @@
+export const exp = [
+  {
+    name: "ReactJS Developer",
+    role: "Intern",
+    company: "CodSoft",
+    description:
+      "Achieved high ratings for Full Stack projects using MERN Stack, optimized web app performance, and successfully completed challenging tasks.",
+    from: "April 2024",
+    to: "May 2024",
+    location: "Remote",
+    companyWebsite: "https://codsoft.in/",
+    techStack: ["React.js", "SASS", "Node.js", "MongoDB", "Express.js"],
+  },
+  {
+    name: "Web Developer",
+    role: "Intern",
+    company: "Codeway Solutions",
+    description:
+      "Achieved perfect ratings for UI and UX design, along with frontend development using HTML5, CSS3, and JavaScript.",
+    from: "April 2024",
+    to: "May 2024",
+    location: "Remote",
+    companyWebsite: "https://codeway.cloud/",
+    techStack: ["HTML5", "CSS3", "Javascript"],
+  },
+  {
+    name: "Nodejs Developer",
+    role: "Trainee",
+    company: "O7 Services",
+    description:
+      "Completed all assigned tasks with a 100% success rate. Developed a major project independently to solve a university/college campus problem for newcomers.",
+    from: "June 2023",
+    to: "July 2023",
+    location: "Jalandhar",
+    companyWebsite: "",
+    techStack: [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+    ],
+  },
+  //   {
+  //     name: "",
+  //     description: "",
+  //  company:"",
+  //     from: "",
+  //     to: "",
+  //     location: "",
+  //     companyWebsite: "",
+  //     techStack: [],
+  //   },
+];
