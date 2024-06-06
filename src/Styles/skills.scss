@@ -47,9 +47,13 @@
 @media screen and (max-width: 768px) {
   .skills {
     width: 90%;
+    padding-top: 10px;
 
     > div {
       width: 90%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
     }
   }
 }

@@ -69,6 +69,8 @@
 @media screen and (max-width: 768px) {
   .about {
     width: 90%;
+    padding-top: 10px;
+
     > div {
       flex-direction: column;
     }
