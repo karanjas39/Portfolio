@@ -15,11 +15,13 @@ import Skills from "./Components/Skills/Skills.jsx";
 import Error from "./Components/Error/Error.jsx";
 import Work from "./Components/Work/Work.jsx";
 import Experience from "./Components/Experience/Experience.jsx";
+import About from "./Components/About/About.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainOutlet />} errorElement={<Error />}>
       <Route path="" element={<Home />} />
+      <Route path="about" element={<About />} />
       <Route path="skills" element={<Skills />} />
       <Route path="work" element={<Work />} />
       <Route path="experience" element={<Experience />} />

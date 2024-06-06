@@ -12,26 +12,26 @@ function NavBar() {
           Home
         </NavLink>
         <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
+          About Me
+        </NavLink>
+        <NavLink
           to="/skills"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
-          }
+          className={({ isActive }) => (isActive ? "active" : "")}
         >
           Skills
         </NavLink>
         <NavLink
           to="/work"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
-          }
+          className={({ isActive }) => (isActive ? "active" : "")}
         >
           Work
         </NavLink>
         <NavLink
           to="/experience"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
-          }
+          className={({ isActive }) => (isActive ? "active" : "")}
         >
           Experience
         </NavLink>
