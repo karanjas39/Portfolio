@@ -1,1 +1,105 @@
 @import "./colors";
+
+.exp {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 40px;
+
+  > p {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    > span {
+      color: $sc;
+    }
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+    margin: 0 auto;
+
+    > .exp-template {
+      padding: 10px 20px;
+      border: 1px solid $b;
+      border-radius: 10px;
+      width: 100%;
+
+      > .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        > p {
+          font-size: 16px;
+          font-weight: bold;
+        }
+        > div {
+          display: flex;
+          gap: 10px;
+          > p {
+            &:first-of-type {
+              font-size: 16px;
+            }
+            &:last-of-type {
+              color: $sc;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      > hr {
+        margin: 10px 0;
+        color: $b;
+      }
+
+      > .bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        > div {
+          &:first-of-type {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            font-size: 14px;
+            > p {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+            }
+            > a {
+              text-decoration: none;
+              color: $pc;
+            }
+          }
+
+          &:last-of-type {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+
+            > p {
+              padding: 4px 8px;
+              border: solid 1px $b;
+              border-radius: 5px;
+              font-size: 12px;
+            }
+          }
+        }
+        > p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

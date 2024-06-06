@@ -18,10 +18,10 @@ function Project() {
         </div>
         <div>
           <a href="#" target="_blank">
-            <i class="fa-solid fa-link"></i> Live Preview
+            <i className="fa-solid fa-link"></i> Live Preview
           </a>
           <a href="#" target="_blank">
-            <i class="fa-brands fa-github"></i> View Code
+            <i className="fa-brands fa-github"></i> View Code
           </a>
         </div>
       </div>
