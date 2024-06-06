@@ -19,6 +19,7 @@ function Home() {
           with {yearsOfExperience} years of expertise in delivering end-to-end
           web solutions.
         </p>
+        <a href="#">Download Resume</a>
       </div>
       <img src="/programmer.png" alt="Programmer image" />
     </section>

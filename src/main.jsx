@@ -14,6 +14,7 @@ import MainOutlet from "./Components/MainOutlet/MainOutlet.jsx";
 import Skills from "./Components/Skills/Skills.jsx";
 import Error from "./Components/Error/Error.jsx";
 import Work from "./Components/Work/Work.jsx";
+import Experience from "./Components/Experience/Experience.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="skills" element={<Skills />} />
       <Route path="work" element={<Work />} />
+      <Route path="experience" element={<Experience />} />
     </Route>
   )
 );
