@@ -15,8 +15,8 @@ function Project({ project }) {
         <p>{project.name}</p>
         <p>{project.description}</p>
         <div>
-          {project.techStack.map((tech) => (
-            <p>{tech}</p>
+          {project.techStack.map((tech, i) => (
+            <p key={i + 1}>{tech}</p>
           ))}
         </div>
         <div>

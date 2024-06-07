@@ -13,7 +13,7 @@ export default function About() {
             I am Jaskaran Singh, a passionate <span>Full Stack Developer</span>{" "}
             from Jalandhar, Punjab, India. Currently pursuing a{" "}
             <span>Bachelor of Computer Science and Engineering</span> at DAV
-            University with a <span>GPA of 9+</span>. My coursework includes{" "}
+            University with a GPA of <span>9+</span>. My coursework includes{" "}
             Database Management Systems, Object-Oriented Programming, Software
             Development, Computer Networks, Operating Systems, and Data
             Structures and Algorithms.
@@ -26,7 +26,7 @@ export default function About() {
               href="mailto:dhillonjaskaran4486@gmail.com?subject=Hi! Jaskaran"
               target="_blank"
             >
-              <i class="fa-solid fa-at"></i>
+              <i className="fa-solid fa-at"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/singhjaskaran/"

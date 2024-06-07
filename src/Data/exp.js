@@ -32,7 +32,7 @@ export const exp = [
     from: "June 2023",
     to: "July 2023",
     location: "Jalandhar",
-    companyWebsite: "",
+    companyWebsite: "https://o7services.com/",
     techStack: [
       "HTML5",
       "CSS3",

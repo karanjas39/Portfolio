@@ -9,7 +9,7 @@ export default function Error() {
       <div className="error">
         <p>Something went wrong!!</p>
         <Link to="/">
-          Go to Home <i class="fa-solid fa-house"></i>
+          Go to Home <i className="fa-solid fa-house"></i>
         </Link>
       </div>
     </>
