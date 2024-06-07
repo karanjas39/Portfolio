@@ -46,7 +46,7 @@ Follow these instructions to set up the project on your local machine for develo
 
 1. Start the development server:
    ```bash
-   npm run start
+   npm run dev
    ```
 2. Open your browser and go to `http://localhost:5173` to view the portfolio.
 
