@@ -65,7 +65,7 @@ The optimized build will be in the `build` folder.
 Outline the structure of your project directory:
 
 ```
-your-repo-name/
+portfolio/
 ├── public/
 │   ├── icon.png
 │   └── ...
