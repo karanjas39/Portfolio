@@ -34,8 +34,8 @@ export default function ExpTemplate({ exp }) {
           </div>
           <p>{exp.description}</p>
           <div>
-            {exp.techStack.map((tech) => (
-              <p>{tech}</p>
+            {exp.techStack.map((tech, i) => (
+              <p key={i + 1}>{tech}</p>
             ))}
           </div>
         </div>
