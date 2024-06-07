@@ -28,7 +28,7 @@ export default function ExpTemplate({ exp }) {
             <p>
               <i className="fa-solid fa-location-dot"></i> {exp.location}
             </p>
-            <a href={exp.companyWebsite}>
+            <a href={exp.companyWebsite} target="_blank">
               <i className="fa-solid fa-link"></i> {exp.company}
             </a>
           </div>
