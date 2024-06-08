@@ -54,6 +54,16 @@ export const projects = [
     banner: "/quizeo.png",
   },
   {
+    name: "Bookworm",
+    description:
+      "Book Worm is a React app that lets users search for books and manage a virtual bookshelf. Features include searching by title with debouncing, adding and removing books from the bookshelf, and persistent data storage using local storage to keep the bookshelf data across page reloads.",
+    techStack: ["React.js", "SASS", "Node.js"],
+    liveLink: "https://bookworm-bookshelf.netlify.app/",
+    gitLink: "https://github.com/karanjas39/personal-bookshelf",
+    youtubeLink: "",
+    banner: "/bookworm.png",
+  },
+  {
     name: "APIQR",
     description:
       "APIQR is your go-to tool for effortlessly generating QR codes. With just a few clicks, you can transform any text into a QR code ready for sharing, printing, or embedding into your projects. Whether you need to share a URL, a message, or any other text-based information, APIQR has you covered.",
