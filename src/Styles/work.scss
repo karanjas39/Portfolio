@@ -43,16 +43,17 @@
 
         > a {
           position: absolute;
-          bottom: 10px;
+          bottom: 15px;
           left: 10px;
           text-decoration: none;
-          color: $pc;
-          background-color: $bg;
+          color: $bg;
+          background-color: $sc;
           padding: 3px 6px;
           border-radius: 5px;
           font-size: 14px;
+          transition: opacity 0.5s ease-in-out;
           &:hover {
-            opacity: 0.8;
+            opacity: 0.9;
           }
         }
       }

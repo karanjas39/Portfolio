@@ -26,19 +26,27 @@
     flex-wrap: wrap;
     gap: 30px;
 
-    > div {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-      align-items: center;
-      justify-content: center;
+    > a {
+      text-decoration: none;
+      color: inherit;
 
-      > i,
-      > p {
-        font-size: 32px;
-      }
-      > p {
-        font-size: 14px;
+      > div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+
+        > i {
+          font-size: 32px;
+        }
+        > img {
+          max-width: 100px;
+          max-height: 50px;
+        }
+        > p {
+          font-size: 14px;
+        }
       }
     }
   }

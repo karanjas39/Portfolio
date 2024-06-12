@@ -46,6 +46,13 @@
         opacity: 1;
       }
     }
+    > a {
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 15px;
+      background-color: $sc;
+      color: $bg;
+    }
   }
 
   > .blur {

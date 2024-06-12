@@ -57,6 +57,12 @@ function NavBar() {
             Experience
           </NavLink>
         </p>
+        <a
+          href="mailto:dhillonjaskaran4486@gmail.com?subject=Hi! Jaskaran"
+          target="_blank"
+        >
+          Contact Me
+        </a>
       </div>
     </div>
   );
