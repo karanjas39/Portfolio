@@ -92,7 +92,7 @@ export const skills = [
   },
   {
     name: "React Router",
-    iconClass: "react-router.png",
+    iconClass: "/react-router.png",
     hasIcon: false,
     hasPNG: true,
     link: "https://reactrouter.com/en/main",
