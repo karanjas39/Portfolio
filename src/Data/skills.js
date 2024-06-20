@@ -49,6 +49,13 @@ export const skills = [
     link: "https://expressjs.com/",
   },
   {
+    name: "Postman",
+    iconClass: "/postman.png",
+    hasIcon: false,
+    hasPNG: true,
+    link: "https://www.postman.com/",
+  },
+  {
     name: "MongoDB",
     iconClass: "/mongo.png",
     hasIcon: false,
