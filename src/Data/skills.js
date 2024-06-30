@@ -77,6 +77,13 @@ export const skills = [
     link: "https://react.dev/",
   },
   {
+    name: "Redux.js",
+    iconClass: "/redux.png",
+    hasIcon: false,
+    hasPNG: true,
+    link: "https://redux.js.org/",
+  },
+  {
     name: "Node.js",
     iconClass: "fa-brands fa-node",
     hasIcon: true,

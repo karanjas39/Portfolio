@@ -23,12 +23,6 @@ export default function About() {
               <i className="fa-brands fa-github"></i>
             </a>
             <a
-              href="mailto:dhillonjaskaran4486@gmail.com?subject=Hi! Jaskaran"
-              target="_blank"
-            >
-              <i className="fa-solid fa-at"></i>
-            </a>
-            <a
               href="https://www.linkedin.com/in/singhjaskaran/"
               target="_blank"
             >
@@ -39,12 +33,6 @@ export default function About() {
               target="_blank"
             >
               <i className="fa-brands fa-x-twitter"></i>
-            </a>
-            <a
-              href="https://www.upwork.com/freelancers/~019216ac9e270c5091?mp_source=share"
-              target="_blank"
-            >
-              <i className="fa-brands fa-upwork"></i>
             </a>
           </div>
         </div>
