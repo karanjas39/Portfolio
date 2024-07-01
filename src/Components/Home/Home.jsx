@@ -20,7 +20,7 @@ function Home() {
           web solutions.
         </p>
         <a
-          href="https://drive.google.com/uc?export=download&id=1vG57UG6elQC9eqyWrquOmn5olRK3bUJK"
+          href="https://drive.google.com/uc?export=download&id=1kmEhDe_77AWEst0hEOTHnSkPufHAiLvJ"
           download
         >
           Download Resume

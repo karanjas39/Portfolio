@@ -1,5 +1,23 @@
 export const exp = [
   {
+    name: "Frontend Developer",
+    role: "Intern",
+    company: "Marquee Equity",
+    description:
+      "I began my journey as a frontend developer at Marquee, where I am gaining valuable real-world experience and learning industry standards.",
+    from: "July 2024",
+    to: "",
+    location: "Remote",
+    companyWebsite: "https://marquee-equity.com/",
+    techStack: [
+      "React.js",
+      "Redux.js",
+      "React Router",
+      "Typescript",
+      "Next.js",
+    ],
+  },
+  {
     name: "ReactJS Developer",
     role: "Intern",
     company: "CodSoft",
