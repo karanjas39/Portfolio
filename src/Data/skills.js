@@ -1,10 +1,17 @@
 export const skills = [
   {
-    name: "Javascript",
+    name: "JavaScript",
     iconClass: "fa-brands fa-js",
     hasIcon: true,
     hasPNG: false,
     link: "https://en.wikipedia.org/wiki/JavaScript",
+  },
+  {
+    name: "TypeScript",
+    iconClass: "/ts.png",
+    hasIcon: false,
+    hasPNG: true,
+    link: "https://www.typescriptlang.org/",
   },
   {
     name: "HTML5",
