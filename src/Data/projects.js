@@ -54,16 +54,6 @@ export const projects = [
     banner: "/quizeo.png",
   },
   {
-    name: "My Goals",
-    description:
-      "This is a simple goals management app built with React and TypeScript. The app allows users to add, view, and manage their goals. The goals are stored in the browser's localStorage, so they persist between sessions.",
-    techStack: ["React.js", "CSS3", "Typescript"],
-    liveLink: "https://jaskarans-goals.vercel.app/",
-    gitLink: "https://github.com/karanjas39/My-Goals-Typescript",
-    youtubeLink: "",
-    banner: "/my-goals.png",
-  },
-  {
     name: "Bookworm",
     description:
       "Book Worm is a React app that lets users search for books and manage a virtual bookshelf. Features include searching by title with debouncing, adding and removing books from the bookshelf, and persistent data storage using local storage to keep the bookshelf data across page reloads.",
