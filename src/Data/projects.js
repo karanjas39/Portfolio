@@ -34,6 +34,16 @@ export const projects = [
     banner: "/opentalks.png",
   },
   {
+    name: "DefineIt - Your Ultimate Dictionary",
+    description:
+      "DefineIt is a dictionary web application built using Next.js, TypeScript, and Tailwind CSS. The app allows users to search for word definitions, phonetics, and usage examples.",
+    techStack: ["Next.js", "Tailwindcss", "TypeScript", "Node.js"],
+    liveLink: "https://defineit.vercel.app/",
+    gitLink: "https://github.com/karanjas39/defineIt",
+    youtubeLink: "",
+    banner: "/defineit.png",
+  },
+  {
     name: "Blogify - A Blogging Platform",
     description:
       "Blogify is a dynamic blog platform, built from scratch. It allows users to create, edit, and delete blog posts, along with user authentication for security. It's a space where people can easily share their thoughts and ideas through blog posts in a user-friendly environment.",
