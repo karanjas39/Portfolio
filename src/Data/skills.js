@@ -21,6 +21,20 @@ export const skills = [
     link: "https://nextjs.org/",
   },
   {
+    name: "Cloudflare Workers",
+    iconClass: "/public/cloudflare_worker.png",
+    hasIcon: false,
+    hasPNG: true,
+    link: "https://workers.cloudflare.com/",
+  },
+  {
+    name: "AWS",
+    iconClass: "fa-brands fa-aws",
+    hasIcon: true,
+    hasPNG: false,
+    link: "https://aws.amazon.com/",
+  },
+  {
     name: "Tailwindcss",
     iconClass: "/tailwind.png",
     hasIcon: false,
@@ -49,11 +63,25 @@ export const skills = [
     link: "https://www.git-scm.com/",
   },
   {
+    name: "Docker",
+    iconClass: "fa-brands fa-docker",
+    hasIcon: true,
+    hasPNG: false,
+    link: "https://docker.com/",
+  },
+  {
     name: "Express.js",
     iconClass: "express",
     hasIcon: false,
     hasPNG: false,
     link: "https://expressjs.com/",
+  },
+  {
+    name: "Hono",
+    iconClass: "/hono.png",
+    hasIcon: false,
+    hasPNG: true,
+    link: "https://hono.dev/",
   },
   {
     name: "Postman",
@@ -70,11 +98,25 @@ export const skills = [
     link: "https://www.mongodb.com/",
   },
   {
+    name: "Postgresql",
+    iconClass: "/postgres.png",
+    hasIcon: false,
+    hasPNG: true,
+    link: "https://www.postgresql.org/",
+  },
+  {
     name: "Apex Oracle",
     iconClass: "fa-solid fa-database",
     hasIcon: true,
     hasPNG: false,
     link: "https://apex.oracle.com/en/",
+  },
+  {
+    name: "Prisma",
+    iconClass: "/prisma.png",
+    hasIcon: false,
+    hasPNG: true,
+    link: "https://www.prisma.io/",
   },
   {
     name: "React.js",
@@ -89,6 +131,13 @@ export const skills = [
     hasIcon: false,
     hasPNG: true,
     link: "https://redux.js.org/",
+  },
+  {
+    name: "Recoil",
+    iconClass: "/recoil.png",
+    hasIcon: false,
+    hasPNG: true,
+    link: "https://recoiljs.org/",
   },
   {
     name: "Node.js",
