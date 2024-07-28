@@ -22,7 +22,7 @@ export const skills = [
   },
   {
     name: "Cloudflare Workers",
-    iconClass: "/public/cloudflare_worker.png",
+    iconClass: "/cloudflare_worker.png",
     hasIcon: false,
     hasPNG: true,
     link: "https://workers.cloudflare.com/",
