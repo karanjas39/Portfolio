@@ -23,7 +23,7 @@ function Home() {
           href="https://docs.google.com/uc?export=download&id=1L_1hf865NgFMRUgciOjvR5PE-07WEMTT"
           download
         >
-          Download Document
+          Download Resume
         </a>
       </div>
       <img src="/programmer.png" alt="Programmer image" />
