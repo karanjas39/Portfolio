@@ -20,10 +20,10 @@ function Home() {
           web solutions.
         </p>
         <a
-          href="https://drive.google.com/uc?export=download&id=1kmEhDe_77AWEst0hEOTHnSkPufHAiLvJ"
+          href="https://docs.google.com/uc?export=download&id=1L_1hf865NgFMRUgciOjvR5PE-07WEMTT"
           download
         >
-          Download Resume
+          Download Document
         </a>
       </div>
       <img src="/programmer.png" alt="Programmer image" />
